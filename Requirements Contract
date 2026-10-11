@@ -1,0 +1,359 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>Solar Plant Technical Specifications (Annexure-A)</title>
+<style>
+  @page {
+    size: A4 portrait;
+    margin: 15mm 15mm 15mm 15mm;
+  }
+  body {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    color: #1a202c;
+    line-height: 1.45;
+    font-size: 10pt;
+  }
+  .header-box {
+    border: 2px solid #1e3a8a;
+    background-color: #f8fafc;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  h1 {
+    color: #1e3a8a;
+    font-size: 15pt;
+    margin: 0 0 4px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .sub-title {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 6px;
+  }
+  .meta-info {
+    font-size: 9.5pt;
+    color: #0f172a;
+    border-top: 1px solid #cbd5e1;
+    padding-top: 6px;
+    margin-top: 6px;
+  }
+  h2 {
+    color: #1e3a8a;
+    font-size: 11.5pt;
+    border-bottom: 2px solid #1e3a8a;
+    padding-bottom: 3px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 12px;
+    font-size: 9.5pt;
+  }
+  th {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: left;
+    padding: 6px 8px;
+    border: 1px solid #0f172a;
+  }
+  td {
+    padding: 6px 8px;
+    border: 1px solid #cbd5e1;
+    vertical-align: top;
+  }
+  tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+  .priority-1 {
+    font-weight: bold;
+    color: #047857;
+  }
+  .priority-2 {
+    color: #b45309;
+  }
+  .checklist-item {
+    margin-bottom: 6px;
+    padding: 6px 10px;
+    background-color: #f1f5f9;
+    border-left: 4px solid #1e3a8a;
+    font-size: 9.5pt;
+  }
+  .checklist-item strong {
+    color: #0f172a;
+  }
+  .sign-table td {
+    border: 1px solid #94a3b8;
+    height: 75px;
+    vertical-align: bottom;
+    padding: 8px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header-box">
+  <h1>Technical Specifications & Scope of Work (Annexure-A)</h1>
+  <div class="sub-title">छत पर सोलर पावर प्लांट लगाने हेतु तकनीकी विवरण एवं नियम व शर्तें</div>
+  <div class="meta-info">
+    <strong>System Capacity:</strong> 4.96 kWp (3-Phase Grid Connected) &nbsp;|&nbsp; 
+    <strong>Scheme:</strong> PM Surya Ghar: Muft Bijli Yojana &nbsp;|&nbsp; 
+    <strong>Location:</strong> Residential Rooftop
+  </div>
+</div>
+
+<h2>1. Bill of Materials & Technical Specifications (उपकरण एवं तकनीकी विवरण)</h2>
+<table>
+  <thead>
+    <tr>
+      <th style="width: 5%;">S.N.</th>
+      <th style="width: 22%;">Equipment (उपकरण)</th>
+      <th style="width: 48%;">Technical Specifications (तकनीकी विवरण)</th>
+      <th style="width: 25%;">Approved Makes (स्वीकृत ब्रांड्स)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><strong>1</strong></td>
+      <td><strong>Solar Panels</strong><br>(सोलर पैनल्स)</td>
+      <td>
+        • <strong>Rating:</strong> 620 Wp (Total 8 Panels = 4.96 kWp)<br>
+        • <strong>Technology:</strong> N-Type TOPCon, Bifacial Dual Glass (16BB)<br>
+        • <strong>Compliance:</strong> DCR Compliant (Cells & Modules Made in India) & ALMM Listed<br>
+        • <strong>Configuration:</strong> Single String (8 Panels in Series ~345V Vmp for optimal MPPT efficiency)
+      </td>
+      <td>
+        <span class="priority-1">1st Priority: Waaree</span><br>
+        <span class="priority-2">2nd Priority: Adani Solar</span>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>2</strong></td>
+      <td><strong>Solar Inverter</strong><br>(सोलर इन्वर्टर)</td>
+      <td>
+        • <strong>Capacity:</strong> 5.0 kW / 5.2 kW, 3-Phase, Dual MPPT (Single MPPT utilized)<br>
+        • <strong>Option A (On-Grid):</strong> Standard Grid-Tied Inverter with Anti-Islanding Protection<br>
+        • <strong>Option B (Hybrid):</strong> 3-Phase Low-Voltage Hybrid Inverter (Battery ready)<br>
+        • <strong>Features:</strong> IP65 Weatherproof, Inbuilt WiFi/4G Data Logger, IEC 62116 Certified
+      </td>
+      <td>
+        <strong>On-Grid:</strong> Polycab / Solis / Sungrow / GoodWe<br><br>
+        <strong>Hybrid:</strong> Deye (SUN-5K-SG04LP3-EU)
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>3</strong></td>
+      <td><strong>Mounting Structure</strong><br>(माउंटिंग स्ट्रक्चर)</td>
+      <td>
+        • <strong>Height:</strong> 5+ Feet Elevated Structure (Bifacial generation ke liye zaroori)<br>
+        • <strong>Galvanization:</strong> Hot-Dip Galvanized (HDG) with <strong>80–100 Micron</strong> zinc coating strictly<br>
+        • <strong>Stability:</strong> Diagonal Cross-Bracing (Supports) for 150 km/h wind certification<br>
+        • <strong>Fasteners:</strong> SS 304 Grade (Stainless Steel) nuts, bolts & washers strictly<br>
+        • <strong>Civil Work:</strong> Chemical Anchor Fasteners + Dr. Fixit/bitumen waterproofing around anchor base
+      </td>
+      <td>Certified HDG Fabricator (Testing certificate mandatory)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>4</strong></td>
+      <td><strong>DC Protection Box</strong><br>(DCDB)</td>
+      <td>
+        • <strong>Enclosure:</strong> IP65 Polycarbonate Weatherproof Box<br>
+        • <strong>Configuration:</strong> 1-in-1-out MPPT Protection<br>
+        • <strong>Components:</strong> Type-II DC SPD (1000V) + 15A/1000V DC Fuse with Din-rail base
+      </td>
+      <td>
+        <strong>Enclosure:</strong> Hensel / Trinity<br>
+        <strong>Switchgear:</strong> Schneider / ABB
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>5</strong></td>
+      <td><strong>AC Protection Box</strong><br>(ACDB)</td>
+      <td>
+        • <strong>Enclosure:</strong> IP65 Weatherproof Box with R-Y-B Phase Indicator LEDs<br>
+        • <strong>Components:</strong> 4-Pole 415V MCB/MCCB + Type-II AC Surge Protection Device (SPD)
+      </td>
+      <td>
+        <strong>Enclosure:</strong> Hensel / Schneider<br>
+        <strong>Switchgear:</strong> Schneider / ABB / L&T
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>6</strong></td>
+      <td><strong>Solar DC Cable</strong></td>
+      <td>
+        • <strong>Size:</strong> 1-Core 4 sq mm ya 6 sq mm, XLPO Insulated, Tinned Copper<br>
+        • <strong>Rating:</strong> 1500V DC, Flame Retardant, UV-Resistant (outdoor rating)
+      </td>
+      <td>Siechem / Lapp / Polycab Solar</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>7</strong></td>
+      <td><strong>Grid AC Cable</strong></td>
+      <td>
+        • <strong>Size:</strong> 4-Core 6 sq mm Copper Armoured Cable (Inverter to Net-Meter)
+      </td>
+      <td>Polycab / Havells / RR Kabel</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>8</strong></td>
+      <td><strong>Earthing System</strong><br>(अर्थिंग सिस्टम)</td>
+      <td>
+        • <strong>Quantity:</strong> 3 Dedicated Chemical Earth Pits (Zero looping):<br>
+        &nbsp;&nbsp;1. Inverter AC & DC Earthing<br>
+        &nbsp;&nbsp;2. Panels & Structure Earthing<br>
+        &nbsp;&nbsp;3. Lightning Arrestor (LA) Earthing<br>
+        • <strong>Electrodes:</strong> 17.2 mm Copper-Bonded Rods (250 Micron Coating, 2–3 Meter length)
+      </td>
+      <td>Heavy-duty Chemical Compound & Copper Bonded Rods</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>9</strong></td>
+      <td><strong>Lightning Arrestor</strong><br>(तड़ित चालक - LA)</td>
+      <td>
+        • <strong>Type:</strong> Solid Pure Copper Franklin Rod (5-Prong Multi-Spike)<br>
+        • <strong>Mast:</strong> 10-Foot Heavy GI Pipe Mast on highest terrace point with isolated down-conductor
+      </td>
+      <td>Pure Copper Franklin Arrestor</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>10</strong></td>
+      <td><strong>Connectors & Conduits</strong></td>
+      <td>
+        • <strong>Connectors:</strong> Original Stäubli (Multi-Contact) MC4 Connectors (~6-8 Pairs)<br>
+        • <strong>Conduits:</strong> Heavy ISI Rigid PVC UV-protected Pipes with Clamps (No exposed open wires)
+      </td>
+      <td>Original Stäubli & ISI Marked Pipes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>2. Mandatory Quality & Installation Checklist (अनिवार्य नियम)</h2>
+<div class="checklist-item">
+  <strong>1. DCR Serial Number Mandate:</strong> Solar panels strictly Made-in-India DCR hone chahiye. Dispatch se pehle serial numbers PM Surya Ghar portal par verify honge.
+</div>
+<div class="checklist-item">
+  <strong>2. Structure Material & SS Fasteners:</strong> Structure hot-dip galvanized (80-100 micron) hona chahiye. Sabhi nuts, bolts aur washers strictly <strong>SS 304 grade</strong> ke hone chahiye (MS ya normal GI bolts prohibited hain).
+</div>
+<div class="checklist-item">
+  <strong>3. No Mixed Earthing (आइसोलेटेड अर्थिंग):</strong> Lightning Arrestor (LA) ki line bilkul alag pit mein jayegi. Ise galti se bhi structure ya inverter earthing ke sath common/loop nahi kiya jayega.
+</div>
+<div class="checklist-item">
+  <strong>4. Wire Laying Standard (तारों की सुरक्षा):</strong> Chhat par koi bhi DC wire khula ya latakta hua nahi chhootega; saare wires heavy UV-rated conduit pipe mein saddles ke sath clamped honge.
+</div>
+<div class="checklist-item">
+  <strong>5. Roof Waterproofing:</strong> Chhat par jahan bhi anchor holes honge, wahan civil grout ke sath Dr. Fixit ya bitumen coating se complete leak-proof waterproofing ki jayegi.
+</div>
+
+<h2>3. Warranties & Guarantees (वारंटी एवं गारंटी)</h2>
+<table>
+  <thead>
+    <tr>
+      <th style="width: 25%;">Component</th>
+      <th style="width: 20%;">Warranty Period</th>
+      <th style="width: 55%;">Terms & Coverage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Solar Panels (Product)</strong></td>
+      <td><strong>12 Years</strong></td>
+      <td>Manufacturing defects, frame loosening ya glass damage par comprehensive replacement.</td>
+    </tr>
+    <tr>
+      <td><strong>Solar Panels (Performance)</strong></td>
+      <td><strong>30 Years</strong></td>
+      <td>Linear power output guarantee (Year 1: ≥99%, Year 30: ≥87.4% output).</td>
+    </tr>
+    <tr>
+      <td><strong>Solar Inverter</strong></td>
+      <td><strong>5 to 8 Years</strong></td>
+      <td>Manufacturer comprehensive onsite replacement warranty.</td>
+    </tr>
+    <tr>
+      <td><strong>Mounting Structure</strong></td>
+      <td><strong>10 Years</strong></td>
+      <td>Anti-Rust & Anti-Corrosion guarantee (Zinc peel-off resistance).</td>
+    </tr>
+    <tr>
+      <td><strong>Plant O&M Maintenance</strong></td>
+      <td><strong>5 Years</strong></td>
+      <td>Vendor ki zimmedari (PM Surya Ghar rules ke mutabiq free breakdown service & routine checks).</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>4. Mandatory Handover Documents (बिल एवं हैंडओवर दस्तावेज़)</h2>
+<table>
+  <thead>
+    <tr>
+      <th style="width: 8%; text-align: center;">Check</th>
+      <th style="width: 32%;">Document Name</th>
+      <th style="width: 60%;">Description / Authority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">[ &nbsp; ]</td>
+      <td><strong>DCR Certificate</strong></td>
+      <td>Module OEM ka signed certificate (Domestic Cell & Module compliance proof).</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">[ &nbsp; ]</td>
+      <td><strong>ALMM Enlistment Copy</strong></td>
+      <td>MNRE dwara approved model enlistment certificate.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">[ &nbsp; ]</td>
+      <td><strong>Sun Simulator Flash Test Reports</strong></td>
+      <td>Sabhi 8 panels ki individual serial number-wise factory IV-curve power output report.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">[ &nbsp; ]</td>
+      <td><strong>Inverter OEM Warranty Card</strong></td>
+      <td>Inverter manufacturer ka verified online registered warranty certificate.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">[ &nbsp; ]</td>
+      <td><strong>Earthing Resistance Test Report</strong></td>
+      <td>Net-meter commissioning se pehle sabhi pits ka resistance <strong>&lt; 5 Ohms</strong> certified.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">[ &nbsp; ]</td>
+      <td><strong>HDG Zinc Micron Test Certificate</strong></td>
+      <td>Galvanizing thickness proof (minimum 80 microns coating certified).</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<h2>5. Acceptance & Signatures (सहमति एवं हस्ताक्षर)</h2>
+<p style="font-size: 9pt; color: #475569; margin-bottom: 8px;">
+  <i>Dono paksh upar diye gaye sabhi technical specifications, quality rules aur warranty terms se poori tarah sahmat hain:</i>
+</p>
+<table class="sign-table">
+  <tr>
+    <td style="width: 50%;">
+      <strong>Client / Consumer Signature:</strong><br><br><br>
+      Name: ____________________________________<br>
+      Contact: __________________________________<br>
+      Date: ______ / ______ / 202___
+    </td>
+    <td style="width: 50%;">
+      <strong>Vendor / Installer Signature & Stamp:</strong><br><br><br>
+      Company Name: ____________________________<br>
+      Representative Name: _______________________<br>
+      Date: ______ / ______ / 202___
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
